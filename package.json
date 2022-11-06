@@ -1,0 +1,18 @@
+{
+  "name": "hnsd-client",
+  "version": "0.0.1",
+  "description": "A js client for use with hnsd's DNS API",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "bmocha --reporter spec test/*-test.js",
+    "test-file": "bmocha --reporter spec"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bns": "^0.15.0",
+    "bsert": "^0.0.10"
+  },
+  "devDependencies": {
+    "bmocha": "^2.1.7"
+  }
+}
